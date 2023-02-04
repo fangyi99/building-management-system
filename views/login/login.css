@@ -1,0 +1,40 @@
+/* nav */
+.navbar a {
+  margin: auto;
+  padding: 0px;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+/* content */
+.content {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.col-md-6 a:link {
+  text-decoration: none;
+}
+
+.col-md-6 p {
+  color: rgba(128, 128, 128, 0.808);
+}
+
+/* form */
+form {
+  padding: 15px;
+  border: rgba(128, 128, 128, 0.295) solid 1px;
+  border-radius: 5px;
+}
+
+.forget-pass {
+  text-align: right;
+}
+
+button {
+  width: 100%;
+}

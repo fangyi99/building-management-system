@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main {
+    width: 70%;
+    margin: auto;
+}
+
+.col-sm {
+    line-height: 400px;
+    height: 500px;
+    padding: 50px;
+    text-align: center;
+}
+
+.col-sm .header-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-title h1 {
+    font-size: 350%;
+    font-weight: bolder;
+}
+
+.header-title h2 {
+    padding-top: 20px;
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.clickable-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.clickable-btn:hover {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+}
